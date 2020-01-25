@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- Meta tags for SEO -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	<meta name="author" content="Joel Richards">
+	<meta name="description" content="This site serves as a portfolio for my work.">
+	<meta name="keywods" content="Joel, Richards, portfolio, highlights">
+
+	<!-- Normalized stylesheet from Neoclas on GitHub. 
+		 Link: https://necolas.github.io/normalize.css/
+		 Accessed: 01-04-2019. -->
+	<link href="css/normalize.css" type="text/css" rel="stylesheet"/>
+	<link href="css/styles.css" type="text/css" rel="stylesheet"/>
+	<!-- Heebo font from Google Fonts. 
+		 Link: https://fonts.google.com/specimen/Heebo?selection.family=Heebo
+		 Accessed: 01-04-2019. -->
+	<link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+	<!-- Favicon created by me -->
+	<link rel="icon" href="img/favicon.png">
+
+	<title>Joel Richards' Portfolio</title>
+
+</head>
+
+<body>
+
+	<header> <!-- Page header -->
+		<div id="top-border">&nbsp;</div>
+		<!-- Logo created by me -->
+		<img id="personal-logo" src="img/personal_logo.png" alt="My personal logo">
+		<h1>Joel Richards</h1>
+
+		<nav> <!-- Main navigation -->
+			<ul id="nav-navigation">
+				<li onclick="toggleNav();">Navigation</li>
+			</ul>
+			<ul id="nav-list">
+				<li class="nav-list-item"><a class="nav-item" href="#welcome">Welcome</a></li>
+				<li class="nav-list-item"><a class="nav-item" href="#about-me">About Me</a></li>
+				<li class="nav-list-item"><a class="nav-item" href="#highlights">Highlights</a></li>
+				<li class="nav-list-item"><a class="nav-item" href="#portfolio">Portfolio</a></li>
+				<li class="nav-list-item"><a class="nav-item" href="#contact-me">Contact</a></li>
+			</ul>
+
+			<hr>
+		</nav> <!-- End main navigation -->
+	</header> <!-- End page header -->
+
+	<main>
+		
+		<section id="welcome" class="main-section">
+			<header class="section-header">
+				<h2>Welcome!</h2>
+			</header>
+			
+			<p>
+				This website serves as a way for you to get to know me, as well as familiarize yourself with the work that I have done over the past number of years.
+			</p>
+			<!-- My personal photo -->
+			<img id="main-pic" src="img/the-boys.JPG" alt="Me, my brother Zach, and my best friend Jake">
+		</section>
+
+		<section id="about-me" class="main-section">
+			<header class="section-header">
+				<h2>About Me</h2>
+			</header>
+
+			<p>
+				Hi there! My name is Joel Richards, and I'm currently a first-year Computer Science student at Dalhousie University in Halifax, Nova Scotia. I'm originally from Truro, Nova Scotia, but live in Halifax during the school year. 
+			</p>
+			<p>
+				I personally see myself as a lifetime learner. One of the things I enjoy doing the most is learning about technologies, whether they be new or old. I find a lot of joy in looking at technology news to find a topic that I find interesting, and then reading everything available about that topic. I find that doing this has significantly improved my knowledge of the world as it becomes increasingly more technologically-focused, and I intend on continuing to do so as time goes on.
+			</p>
+			<p>
+				In terms of my academic interests, I am very interested in computer science, math and physics. I'm a problem solver, which makes studying these topics very enjoyable. Like with general technology, I often find myself reading about new things in these fields in my free time, trying to absorb as much as possible.
+			</p>
+			<p>
+				When I'm not doing work or studying, I love to play sports and some video games. Tennis is my main passion, and I play it as much as I possibly can. This has likely resulted from me working at a local tennis club for the past few years, fully immersing me in the sport and the culture. I also play soccer for fun with friends, as soccer is something that I have enjoyed playing for as long as I can remember. In terms of video games, I primarily play FPSes like Counter Strike and Call of Duty, but I also games like Mario Tennis Aces and Smash Bros with friends.
+			</p>
+
+			<hr>
+
+		</section>
+
+		<section id="highlights" class="main-section">
+			
+			<header class="section-header">
+				<h2>Highlights</h2>
+			</header>
+
+			<div id="highlights-content">
+
+				<div id="highlights-text">
+
+					<!-- Organization picture from pxHere.
+						 Link: https://pxhere.com/en/photo/911859
+						 Accessed: 11-04-2019. -->
+					<div id="highlight-1" class="highlights-item" onmouseover="imageSwitch('organized')">
+						<h3>Organized</h3>
+						<!-- Lorem text generated using a Sublime Text shortcut -->
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+
+					<!-- Motivation picture from pxHere.
+						 Link:https://pxhere.com/en/photo/916980
+						 Accessed: 11-04-2019. -->
+					<div id="highlight-2" class="highlights-item" onmouseover="imageSwitch('motivated')">
+						<h3>Motivated</h3>
+						<!-- Lorem text generated using a Sublime Text shortcut -->
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+
+					<!-- Analytical image from PGFPlots.
+						 Link: http://pgfplots.net/tikz/examples/surface-plot-math/
+						 Accessed: 11-04-2019. -->
+					<div id="highlight-3" class="highlights-item" onmouseover="imageSwitch('analytical')">
+						<h3>Analytical</h3>
+						<!-- Lorem text generated using a Sublime Text shortcut -->
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+
+				<div id="highlights-image">
+					<!-- Organization picture from pxHere.
+						 Link: https://pxhere.com/en/photo/911859
+						 Accessed: 11-04-2019. -->
+					<img id="highlights-img" src="img/organized.jpg" alt="Organization">
+				</div>
+			</div>
+			
+			<hr>
+			
+		</section>
+
+		<section id="portfolio" class="main-section">
+			<header class="section-header">
+				<h2>Portfolio</h2>
+			</header>
+
+			<div id="portfolio-content">
+				<div id="portfolio-1" class="portfolio-item">
+					<h3>Research: The Math Behind RSA</h3>
+
+					<p>
+						In high school, I researched the mathematics behind the RSA cryptographic algorithm. At the time, I had little to no experience in computer science, so the paper primarily focuses on the mathematics that go into the algorithm. Included are explanations for all of the necessary functions used in generating RSA keys, as well as a walkthrough of key generation and usage.
+					</p>
+					<!-- Image was created by me -->
+					<img src="img/encryption.PNG" class="portfolio-img" alt="RSA Encryption">
+				</div>
+
+				<div id="portfolio-2" class="portfolio-item">
+					<h3>Coding: RSA in Python</h3>
+
+					<p>
+						After starting university and becoming more familiar with Python as my first programming language, I decided that I would take the knowledge gained from writing my paper on the RSA algorithm and try and implement the same functionality in Python. The program generates an RSA keypair using two prime numbers entered by the user. I tried to write the program so that it followed the process outlined in the paper as closely as possible. The program can be found <a href="https://www.github.com/brownloki">on my GitHub profile.</a>
+					</p>
+					<!-- Image was created by me -->
+					<img src="img/rsa.PNG" class="portfolio-img" alt="RSA in Python">
+				</div>
+
+				<div id="portfolio-3" class="portfolio-item">
+					<h3>Design: Graphic Design</h3>
+
+					<p>
+						I occasionally put the skills I gained from a digital arts course I took in high school to use in designing logos and other images for myself and friends. The one in the header of the page is the one I use personally on platforms like Steam, and the one below is something I put together for a group of friends. You can find some of them on <a href="https://drive.google.com/open?id=1r6xqTS4_n6OAUvRk1w00DgvsTNi4RfR8">my Google Drive</a>
+					</p>
+					<!-- Image was created by me -->
+					<img src="img/blue_logo.jpg" class="portfolio-img" alt="Logo Design">
+				</div>
+			</div>
+
+			<hr>
+			
+		</section>
+
+		<section id="contact-me" class="main-section">
+			<header class="section-header">
+				<h2>Contact Me</h2>
+			</header>
+
+			<p>Have anything you would like to ask me? Feel free to leave your contact information and a message in the form below. I'll get back to you as soon as possible!</p>
+
+			<br>
+
+			<!-- After filling out each form, user clicks button and the next section expands.
+				 When last section expands, next button disappears and becomes submit -->
+			<!-- Information on how to implement HTML form validation from Mozilla Developer Network.
+				 Link: https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation
+				 Accessed: 08-04-2019. -->
+			<form action="#" method="get">
+				<div id="first-form-section">
+					<p>Start by giving me your name:</p>
+					<p>
+						<label for="contact-name">Name (required):</label>
+						<br>
+						<input id="contact-name" type="text" name="c-name" size="32" required>
+						<br>
+						<br>
+					</p>	
+				</div>
+
+				<div id="second-form-section">
+					<p>Next, I'll need your email address and phone number so I can get back to you.</p>
+					<p>
+						<label for="contact-email">Email (required):</label>
+						<br>
+						<input id="contact-email" type="email" name="c-email" size="32" placeholder="myName@mySchool.ca" required>
+					</p>
+
+					<p>
+						<label for="contact-phone">Phone Number (required):</label>
+						<br>
+						<input id="contact-phone" type="tel" name="c-phone" placeholder="123-456-7890" minlength="10" maxlength="13" required>
+						<br>
+						<br>
+					</p>
+				</div>
+
+				<div id="third-form-section">
+					<p>Now, enter your message for me and hit submit!</p>
+					<p>
+						<label for="contact-message">Message (required):</label>
+						<br>
+						<textarea id="contact-message" name="c-message" rows="10" cols="80"></textarea>
+					</p>
+
+					<p>
+						<button onclick="getFormData();">Submit</button>
+					</p>
+				</div>
+
+			</form>
+
+			<button id="contact-next-button" onclick="expandForm();">Next Step</button>
+		</section>
+
+	</main>
+
+	<footer> <!-- Page footer -->
+		<p id="footer-text">
+			<small>&copy; &nbsp;Joel Richards 2019</small>
+			
+			<span id="social-links">
+				<small>
+					<label for="darkModeCheck">Dark Mode:</label>
+					<input type="checkbox" name="darkMode" id="darkModeCheck" onchange="toggleDarkMode();"> &nbsp;
+					<!-- Icons from Google's Material Design Icon Library.
+						 Link: https://material.io/tools/icons/?style=baseline
+						 Accessed: 01-04-2019. -->
+					<a href="mailto:richardsrj@live.com" target="_blank"><img class="social-image" src="img/icons/email.png" alt="Email me">Email &nbsp;</a>
+					<a href="https://www.github.com/brownloki" target="_blank"><img class="social-image" src="img/icons/code.png" alt="My Github Profile">Github &nbsp;</a>
+				</small>
+			</span>
+		</p>
+	</footer> <!-- End page footer -->
+
+
+	<!-- jQuery imported from Google Hosted Libraries.
+		 Link: https://developers.google.com/speed/libraries/#jquery
+		 Accessed: 03-04-2019. -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+Normalized stylesheet from Neoclas on GitHub. 
+Link: https://necolas.github.io/normalize.css/
+Accessed: 01-04-2019.
+
+Heebo font from Google Fonts. 
+Link: https://fonts.google.com/specimen/Heebo?selection.family=Heebo
+Accessed: 01-04-2019.
+
+Colors selected using Google's Material Design Color Tool.
+Link: https://material.io/tools/color/#!/?view.left=0&view.right=0
+Accessed: 01-04-2019.
+
+Icons from Google's Material Design Icon Library.
+Link: https://material.io/tools/icons/?style=baseline
+Accessed: 01-04-2019.
+
+jQuery imported from Google Hosted Libraries.
+Link: https://developers.google.com/speed/libraries/#jquery
+Accessed: 03-04-2019.
+
+Information on how to implement HTML form validation from Mozilla Developer Network.
+Link: https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation
+Accessed: 08-04-2019.
+
+Organization picture from pxHere.
+Link: https://pxhere.com/en/photo/911859
+Accessed: 11-04-2019.
+
+Motivation picture from pxHere.
+Link:https://pxhere.com/en/photo/916980
+Accessed: 11-04-2019.
+
+Analytical image from PGFPlots.
+Link: http://pgfplots.net/tikz/examples/surface-plot-math/
+Accessed: 11-04-2019.
+
